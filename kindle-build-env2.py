@@ -19,7 +19,7 @@ print("The KMC Kindle SDK augments your existing koxtoolchain installation by pr
 choice = input("(y/n) >>> ")
 if choice == "y":
     os.system("git clone --recursive --depth=1 https://github.com/KindleModding/kindle-sdk.git")
-    os.chdir("cd kindle-sdk")
+    os.chdir("kindle-sdk")
     os.system("./gen-sdk.sh " + target)
     print("Once the SDK has finished installing itself, make a note of the path it returns to the meson-crosscompile.txt file, this will be important later!")
     print("A file will be created in your home directory to keep note of this file")
