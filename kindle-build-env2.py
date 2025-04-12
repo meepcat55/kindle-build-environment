@@ -27,5 +27,5 @@ if choice == "y":
     directory = input("please enter the path it returned to the meson-crosscompile.txt file >>> ")
     os.system('echo "' + directory +'" > meson-crosscompile-directory.txt')
     os.system('cp meson-crosscompile-directory.txt ~')
-    print("the environment is set up go to https://kindlemodding.org/kindle-dev/gtk-tutorial/setting-up.html to learn how to create a project")
-    print("to enter your enviroment in the future type distrobox enter kindle-build-env in your terminal")
+print("the environment is set up go to https://kindlemodding.org/kindle-dev/gtk-tutorial/setting-up.html to learn how to create a project")
+print("to enter your enviroment in the future type distrobox enter kindle-build-env in your terminal")
