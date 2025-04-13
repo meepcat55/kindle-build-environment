@@ -1,7 +1,7 @@
 import os
-os.system("sudo pacman -S base-devel curl git gperf help2man unzip wget")
-os.system("sudo pacman -S curl sed libarchive nettle")
-os.system("sudo pacman -S meson gtk2")
+os.system("sudo pacman -S base-devel curl git gperf help2man unzip wget --noconfirm")
+os.system("sudo pacman -S curl sed libarchive nettle --noconfirm")
+os.system("sudo pacman -S meson gtk2 --noconfirm")
 print("setting up koxtoolchain")
 os.system("git clone --recursive --depth=1 https://github.com/koreader/koxtoolchain.git")
 os.chdir("koxtoolchain")
